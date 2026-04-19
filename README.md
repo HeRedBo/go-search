@@ -177,36 +177,36 @@ go-search/
 <table>
 <tr><th colspan="3" align="center">后端</th></tr>
 <tr><th>分类</th><th>技术</th><th>用途</th></tr>
-<tr><td>语言</td><td>Go 1.23</td><td>开发语言</td></tr>
-<tr><td>Web 框架</td><td>Gin</td><td>HTTP 路由与中间件</td></tr>
-<tr><td>ORM</td><td>Gorm</td><td>数据库操作、关联预加载、软删除</td></tr>
-<tr><td>搜索引擎</td><td>Elasticsearch 8</td><td>全文检索、聚合分析、近实时搜索</td></tr>
-<tr><td>消息队列</td><td>Kafka (IBM/sarama)</td><td>数据变更事件异步推送、解耦同步</td></tr>
-<tr><td>缓存</td><td>Redis (go-redis/v7)</td><td>Token 存储、数据缓存、Bitmap</td></tr>
-<tr><td>数据库</td><td>MySQL</td><td>业务数据持久化</td></tr>
-<tr><td>文档数据库</td><td>MongoDB</td><td>日志存储、扩展数据</td></tr>
-<tr><td>权限</td><td>Casbin v2</td><td>RBAC 角色菜单权限、策略持久化</td></tr>
-<tr><td>认证</td><td>JWT</td><td>管理端 & 用户端双 Token 鉴权</td></tr>
-<tr><td>日志</td><td>Zap + Lumberjack</td><td>结构化日志、文件轮转</td></tr>
-<tr><td>配置</td><td>Viper</td><td>YAML 配置热加载</td></tr>
+<tr><td>语言</td><td><img src="https://img.shields.io/badge/Go-1.23-00ADD8?style=flat-square&logo=go&logoColor=white"/></td><td>开发语言</td></tr>
+<tr><td>Web 框架</td><td><img src="https://img.shields.io/badge/Gin-Framework-00ACD7?style=flat-square&logo=go&logoColor=white"/></td><td>HTTP 路由与中间件</td></tr>
+<tr><td>ORM</td><td><img src="https://img.shields.io/badge/Gorm-ORM-5D5DE0?style=flat-square&logo=go&logoColor=white"/></td><td>数据库操作、关联预加载、软删除</td></tr>
+<tr><td>搜索引擎</td><td><img src="https://img.shields.io/badge/Elasticsearch-8.x-005571?style=flat-square&logo=elasticsearch&logoColor=white"/></td><td>全文检索、聚合分析、近实时搜索</td></tr>
+<tr><td>消息队列</td><td><img src="https://img.shields.io/badge/Kafka-IBM%2FSarama-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/></td><td>数据变更事件异步推送、解耦同步</td></tr>
+<tr><td>缓存</td><td><img src="https://img.shields.io/badge/Redis-go--redis%2Fv7-DC382D?style=flat-square&logo=redis&logoColor=white"/></td><td>Token 存储、数据缓存、Bitmap</td></tr>
+<tr><td>数据库</td><td><img src="https://img.shields.io/badge/MySQL-5.7+-4479A1?style=flat-square&logo=mysql&logoColor=white"/></td><td>业务数据持久化</td></tr>
+<tr><td>文档数据库</td><td><img src="https://img.shields.io/badge/MongoDB-4.x+-47A248?style=flat-square&logo=mongodb&logoColor=white"/></td><td>日志存储、扩展数据</td></tr>
+<tr><td>权限</td><td><img src="https://img.shields.io/badge/Casbin-v2-FF6C37?style=flat-square&logo=go&logoColor=white"/></td><td>RBAC 角色菜单权限、策略持久化</td></tr>
+<tr><td>认证</td><td><img src="https://img.shields.io/badge/JWT-Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/></td><td>管理端 & 用户端双 Token 鉴权</td></tr>
+<tr><td>日志</td><td><img src="https://img.shields.io/badge/Zap-Lumberjack-FF6C37?style=flat-square&logo=uber&logoColor=white"/></td><td>结构化日志、文件轮转</td></tr>
+<tr><td>配置</td><td><img src="https://img.shields.io/badge/Viper-Config-6C4AB6?style=flat-square&logo=go&logoColor=white"/></td><td>YAML 配置热加载</td></tr>
 </table>
 
 <table>
 <tr><th colspan="2" align="center">前端</th></tr>
 <tr><th>技术</th><th>用途</th></tr>
-<tr><td>Vue 2</td><td>前端框架</td></tr>
-<tr><td>Element UI</td><td>UI 组件库</td></tr>
-<tr><td>Vuex</td><td>状态管理</td></tr>
-<tr><td>Vue Router</td><td>路由管理</td></tr>
-<tr><td>Axios</td><td>HTTP 请求</td></tr>
-<tr><td>ECharts</td><td>数据可视化</td></tr>
+<tr><td><img src="https://img.shields.io/badge/Vue-2.x-4FC08D?style=flat-square&logo=vue.js&logoColor=white"/></td><td>前端框架</td></tr>
+<tr><td><img src="https://img.shields.io/badge/Element--UI-2.x-409EFF?style=flat-square&logo=element&logoColor=white"/></td><td>UI 组件库</td></tr>
+<tr><td><img src="https://img.shields.io/badge/Vuex-3.x-4FC08D?style=flat-square&logo=vue.js&logoColor=white"/></td><td>状态管理</td></tr>
+<tr><td><img src="https://img.shields.io/badge/Vue--Router-3.x-4FC08D?style=flat-square&logo=vue.js&logoColor=white"/></td><td>路由管理</td></tr>
+<tr><td><img src="https://img.shields.io/badge/Axios-HTTP-5A29E4?style=flat-square&logo=axios&logoColor=white"/></td><td>HTTP 请求</td></tr>
+<tr><td><img src="https://img.shields.io/badge/ECharts-5.x-AA344D?style=flat-square&logo=apache-echarts&logoColor=white"/></td><td>数据可视化</td></tr>
 </table>
 
 <table>
 <tr><th colspan="2" align="center">基础设施</th></tr>
 <tr><th>技术</th><th>用途</th></tr>
-<tr><td>Docker</td><td>容器化部署</td></tr>
-<tr><td>Docker Compose</td><td>服务编排</td></tr>
+<tr><td><img src="https://img.shields.io/badge/Docker-Container-2496ED?style=flat-square&logo=docker&logoColor=white"/></td><td>容器化部署</td></tr>
+<tr><td><img src="https://img.shields.io/badge/Docker--Compose-Orchestration-2496ED?style=flat-square&logo=docker&logoColor=white"/></td><td>服务编排</td></tr>
 </table>
 
 ---
@@ -255,15 +255,41 @@ graph LR
 
 ### 环境要求
 
-| 依赖 | 版本 |
-| :--- | :--- |
-| Go | >= 1.23 |
-| Node.js | >= 8.9 |
-| MySQL | >= 5.7 |
-| Redis | >= 4.0 |
-| Elasticsearch | 8.x |
-| Kafka | 2.x+ |
-| MongoDB | 4.x+（可选） |
+<table>
+<thead>
+<tr><th>依赖</th><th>版本</th><th>说明</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/></td>
+<td>>= 1.23</td><td>开发语言</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/></td>
+<td>>= 8.9</td><td>前端运行环境，必须</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/></td>
+<td>>= 5.7</td><td>关系型数据库，必须</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/></td>
+<td>>= 4.0</td><td>缓存，必须</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/></td>
+<td>8.x</td><td>搜索引擎，必须</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/></td>
+<td>2.x+</td><td>消息队列，必须</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/></td>
+<td>4.x+</td><td>文档数据库，可选</td>
+</tr>
+</tbody>
+</table>
 
 ### 部署步骤
 
